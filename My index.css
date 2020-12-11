@@ -1,0 +1,204 @@
+body
+{
+    font-family: 'Red Rose', cursive;
+}
+body,head{
+    height:100%;
+    width: 100%;
+}
+.d-block img{
+    width: 850px;
+    height: 700px;
+    margin:0 auto;
+}
+.d-md-block img{
+    height: auto;
+    width: auto;
+    margin-right: 9px;
+}
+.centered{
+    text-align: center;
+    padding-top: 8px;
+}
+/*span h3:after {
+    content:'';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+    max-width: 30%;
+  }*/
+  #line h4{
+      display: flex;
+      flex-direction: row;
+  }
+  #line h4::after{
+    content: "";
+    border-bottom: 1px solid #000;
+    max-width: 48%;
+    flex: 1 1;
+    align-self: center;
+    margin-right:2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+      }
+      #Twolink h4{
+          display: inline;
+      }
+      #horiline hr{
+          border-top: 1px solid black;
+          margin-top: 4rem;
+        margin-bottom: 4rem;
+        }
+        footer a{
+         color: black;
+         margin-left: 7px;
+         margin-right: 7px;
+         font-size: 25px;
+
+        }
+        #build hr{
+            border-top: 1px solid white;
+        }
+        ul li
+        {
+            margin-top: 1px;
+            margin-bottom: 1px;
+                    }
+      @media(max-width:576px)
+      {
+       #welcome h2{
+           font-size: 40px;
+           font-weight: 900;
+      }
+      #welcome h4{
+             font-size: 17px;
+             }
+      #welcome .btn {
+          font-size: small;
+          border-radius: 20px;
+      }
+      #pic img
+      {
+          width: 500px;
+          height: 300px;
+          margin-top: -2rem;
+          margin-bottom: 4.5rem;
+     }
+     #free
+     {
+         padding-left: -3rem;
+     }
+     #free h2{
+          font-size: 28px!important;
+          margin-top: -4rem;
+          margin-bottom: -4rem;
+          }
+    #free h4{
+        font-size: 19px;
+        margin-top:-10rem;
+    }
+    #free h3{
+        font-size: 19px;
+        margin-bottom: -7rem;
+        }
+    #free
+    {
+        height: 100%;
+    }
+    #build h1
+    {
+        font-size:40px ;
+    }
+    #build p
+    {
+       font-size: 16px!important;
+       margin-bottom: -1rem;
+    }
+    #build h3
+    {
+       font-size: 19px;
+       margin-bottom: 1px;
+    }
+    #build img
+    {
+      height: 300px!important;
+      width: 400px!important;
+    }
+    #wix img {
+        width: 350px!important;
+        height: 400px!important;
+        margin-top: -1rem;
+        margin-right: 2rem!important;
+        margin-bottom: -3rem;
+        
+    }
+    #wix p{
+        margin-top: -3rem;
+        font-size: 16px!important;
+        margin-left: 1rem;
+    }
+    #wix .display-4
+    {
+        font-size: 30px!important;
+        margin-top: -4rem;
+    }
+    #wix h4{
+        font-size: 19px;
+        margin-top: -1rem;
+        margin-left: 1rem;
+    }
+    #adi p{
+        font-size: 16px!important;
+        max-width: 30rem!important;
+        margin-left: -7rem;
+        margin-top: -2rem;
+        max-width: 800px!important;
+    }
+    #adi .display-4
+    {
+        font-size: 28px!important;
+        margin-left: -7rem;
+        margin-top: -4rem;
+    }
+    #adi h4{
+        font-size: 19px;
+        margin-left: -7rem;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+    #corvid .display-4
+    {
+        font-size: 28px!important;
+        margin-top: 2rem;
+    }
+    #corvid p{
+        font-size: 16px!important;
+        margin-top: -2rem;
+        max-width: 800px!important;
+    }
+    #corvid h4{
+        font-size: 19px;
+    }
+    #oneimg img
+    {
+        height: 350px!important;
+        width: 350px!important;
+        margin-top: -2rem;
+        margin-left: -3rem;
+        margin-bottom: 2rem;
+        padding-right: 1rem;
+    }
+    #twoimg img{
+        height: 340px!important;
+        width: 340px!important;
+        margin-top: 1rem;
+        margin-left: 5rem!important;
+    }
+    #line h4{
+        font-size: 30px;
+        margin-left: -2rem;
+        margin-right: -2rem;
+        max-width: 500px;
+    }
+    }
+}
